@@ -39,6 +39,26 @@
       border-radius: 5px;
     }
 
-    &__button {}
+    &__button {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      border: 8px groove gold;
+      margin: 0 auto;
+      cursor: pointer;
+
+      &:hover {
+        img {
+          transform: scale(1.2);
+
+        }
+      }
+
+      img {
+        height: 90px;
+        transition: .5s;
+      }
+    }
   }
 }

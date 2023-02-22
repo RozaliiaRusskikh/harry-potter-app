@@ -33,4 +33,20 @@
   padding: 5px;
   border: nones;
   border-radius: 5px;
+}
+#wizard-form-container .wizard-form__button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 8px groove gold;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#wizard-form-container .wizard-form__button:hover img {
+  transform: scale(1.2);
+}
+#wizard-form-container .wizard-form__button img {
+  height: 90px;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
