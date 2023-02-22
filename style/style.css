@@ -2,6 +2,10 @@
   font-family: "harryp";
   src: url(../assets/HARRYP.TTF);
 }
+body {
+  background-color: black;
+}
+
 #wizard-form-container {
   display: flex;
   flex-direction: column;
@@ -49,4 +53,25 @@
 #wizard-form-container .wizard-form__button img {
   height: 90px;
   transition: 0.5s;
+}
+
+.message {
+  background-color: rgb(255, 162, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+.message-family {
+  background-color: gold;
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  background-color: gold;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
