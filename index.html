@@ -12,60 +12,64 @@
     <title>Find your wizard family</title>
   </head>
   <body>
-    <h1>Which Wizarding Family Do You Belong To?</h1>
-    <form id="wizard-form" class="wizard-form">
-      <div class="wizard-form__input-group">
-        <label for="name">NAME</label>
-        <input
-          class="wizard-form__input-field"
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Enter your name"
-        />
-      </div>
-      <div class="comments-section__input-group">
-        <legend>Your eyes color:</legend>
+    <section class="form-section">
+      <h1>Which Wizarding Family Do You Belong To?</h1>
+      <form id="wizard-form" class="wizard-form">
+        <div class="wizard-form__input-group">
+          <label for="name">NAME</label>
+          <input
+            class="wizard-form__input-field"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="comments-section__input-group">
+          <legend>Your eyes color:</legend>
 
-        <label for="brown">Brown</label>
-        <input type="radio" id="brown" name="eye-color" value="brown" />
+          <label for="brown">Brown</label>
+          <input type="radio" id="brown" name="eye-color" value="brown" />
 
-        <label for="amber">Amber</label>
-        <input type="radio" id="amber" name="eye-color" value="amber" />
+          <label for="amber">Amber</label>
+          <input type="radio" id="amber" name="eye-color" value="amber" />
 
-        <label for="hazel">Hazel</label>
-        <input type="radio" id="hazel" name="eye-color" value="hazel" />
+          <label for="hazel">Hazel</label>
+          <input type="radio" id="hazel" name="eye-color" value="hazel" />
 
-        <label for="green">Green</label>
-        <input type="radio" id="green" name="eye-color" value="green" />
+          <label for="green">Green</label>
+          <input type="radio" id="green" name="eye-color" value="green" />
 
-        <label for="blue">Blue</label>
-        <input type="radio" id="blue" name="eye-color" value="blue" />
+          <label for="blue">Blue</label>
+          <input type="radio" id="blue" name="eye-color" value="blue" />
 
-        <label for="gray">Gray</label>
-        <input type="radio" id="gray" name="eye-color" value="gray" />
-      </div>
-      <div class="comments-section__input-group">
-        <legend>Your hair color:</legend>
+          <label for="gray">Gray</label>
+          <input type="radio" id="gray" name="eye-color" value="gray" />
+        </div>
+        <div class="comments-section__input-group">
+          <legend>Your hair color:</legend>
 
-        <label for="brown">Brown</label>
-        <input type="radio" id="brown" name="hair-color" value="brown" />
+          <label for="brown">Brown</label>
+          <input type="radio" id="brown" name="hair-color" value="brown" />
 
-        <label for="black">Black</label>
-        <input type="radio" id="black" name="hair-color" value="black" />
+          <label for="black">Black</label>
+          <input type="radio" id="black" name="hair-color" value="black" />
 
-        <label for="blond">Blond</label>
-        <input type="radio" id="blond" name="hair-color" value="blond" />
-      </div>
-      <div class="comments-section__input-group">
-        <select name="animal">
-          <option value="">-- Please select your favourite animal --</option>
-          <option value="cat">Cat</option>
-          <option value="dog">Dog</option>
-          <option value="rabbit">Rabbit</option>
-        </select>
-      </div>
-      <button class="wizard-form__button">FIND YOUR FAMILY</button>
-    </form>
+          <label for="blond">Blond</label>
+          <input type="radio" id="blond" name="hair-color" value="blond" />
+        </div>
+        <div class="comments-section__input-group">
+          <select name="animal">
+            <option value="">-- Please select your favourite animal --</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="rabbit">Rabbit</option>
+          </select>
+        </div>
+        <button class="wizard-form__button">FIND YOUR FAMILY</button>
+      </form>
+    </section>
+    <section class="results-section"></section>
+    <script src="./script.js"></script>
   </body>
 </html>
