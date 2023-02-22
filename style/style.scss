@@ -1,8 +1,44 @@
-.wizard-form {
-  &__input-group {
+@font-face {
+  font-family: "harryp";
+  src: url(../assets/HARRYP.TTF);
+}
+
+#wizard-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/hogwarts.jpg);
+  background-size: cover;
+  height: 100vh;
+
+  h1 {
+    font-family: harryp;
+    color: gold;
+    font-size: 50px;
   }
-  &__input-field {
-  }
-  &__button {
+
+  .wizard-form {
+    width: 70%;
+    padding: 15px;
+    background-color: #88390bd6;
+    border: 15px groove gold;
+    color: white;
+
+    &__input-group {
+      margin-bottom: 10px;
+
+      select {
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+
+    &__input-field {
+      padding: 5px;
+      border: nones;
+      border-radius: 5px;
+    }
+
+    &__button {}
   }
 }
